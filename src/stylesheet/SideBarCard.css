@@ -1,0 +1,41 @@
+#fullcard{
+    height:5%;
+    width:auto;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction:row;
+    margin-top:1.2rem;
+    margin-left:5px;
+    margin-right:5px;
+    border-radius: 5px;
+    transition: all 0.5s;
+    padding-left:5px;
+}
+#right-fullcard{
+    width:90%;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+#right-fullcard #state-name{
+    width:65%;
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    font-size:1.1rem;
+}
+#fullcard:hover{
+    background-color:white;
+    color:#287AFE;
+    transition: all 0.5s;
+}
+#right-dot{
+    height:6px;
+    width:6px;
+    background-color:white;
+    border-radius:50%;
+}
+#fullcard:hover #right-dot{
+    background-color:#287AFE;
+}

@@ -1,0 +1,14 @@
+#small-card{
+    /* background-color:red; */
+    width:100%;
+    height:58px;
+    display:flex;
+    align-items:center;
+    gap:20px;
+    margin-top:3px;
+}
+#small-card #details{
+    height:75%;
+    display:flex;
+    flex-direction:column;
+}

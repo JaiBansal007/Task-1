@@ -1,0 +1,52 @@
+#largeCard-main{
+    width:20%;
+    max-width:100%;
+    max-height:150px;
+    min-width:250px;
+    min-height:50px;
+    border-radius:15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 15px;
+    display:flex;
+    margin:20px;
+}
+#largemain-left{
+    width:70%;
+    /* background-color:red; */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    padding-left:40px;
+    font-family:sans-serif;
+}
+#largemain-left #upper-left{
+    height:50%;
+    font-size:40px;
+    display:flex;
+    align-items:flex-end;
+    color:#287AFE;
+    /* background-color:blue; */
+}
+#largemain-left #bottom-left{
+    height:50%;
+    font-size:20px;
+    display:flex;
+    align-items:center;
+    /* background-color:blue; */
+    color:#999999;
+}
+#largemain-right{
+    width:30%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#999999;
+}
+#largeCard-main:hover{
+    background-color:#287AFE;
+}
+#largeCard-main:hover #largemain-left #upper-left,
+#largeCard-main:hover #largemain-left #bottom-left ,
+#largeCard-main:hover #largemain-right{
+    color: white;
+}

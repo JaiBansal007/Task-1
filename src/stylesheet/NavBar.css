@@ -1,0 +1,38 @@
+#navebar{
+    width:100%;
+    height:5%;
+    /* background-color:red; */
+    display:flex;
+    align-items:center;
+    
+}
+#navebar #search-bar{
+    width:95%;
+    height:90%;
+    /* background-color:red; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#navebar #search-bar #inside-div{
+    width:40%;
+    position:relative;
+    /* background-color:red; */
+    margin-top:10px;
+}
+#navebar #search-bar input{
+    width:100%;
+    height:80%;
+    border-radius:23px;
+    padding-left:34px;
+    font-size:17px;
+    place-self:center;
+}
+#navebar img{
+    width:2.5%;
+    height:auto;
+    object:cover;
+    border-radius:50%;
+    overflow:hidden;
+    border: 1px solid black;
+}

@@ -1,0 +1,58 @@
+#dashleft{
+    margin:10px;
+    height:100%;
+    width:65%;
+    /* background-color:red; */
+    display:flex;
+    flex-direction:column;
+    border-radius:7px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 15px;
+    overflow-y:scroll;
+    padding-left:20px;
+    padding-right:20px;
+}
+#top-dashleft{
+    height:50px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    /* background-color:red; */
+    margin-bottom:5%;
+    margin-top:10px;
+}
+table{
+    width:100%;
+}
+table #items-data{
+    overflow-y:scroll;
+}
+table .format{
+    width:auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-direction:row;
+    height:30px;
+    padding-top:6px;
+    padding-bottom:6px;
+    padding-left:15px;
+    padding-right:10px;
+}
+
+#card:hover{
+    background-color:#287BFF;
+    color:white;
+    transition:All ease 0.1s;
+}
+.format .heading-names{
+    font-size:17px;
+    font-family:sans-serif;
+    font-weight:bold;
+    color:black;
+}
+.format .items{
+    font-size:16px;
+    font-family:sans-serif;
+
+}
