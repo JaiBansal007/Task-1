@@ -24,9 +24,7 @@ const SideBar = () => {
             }} 
             />      
         </div>
-        <SideBarCard toggle={toggle} icon={<HomeIcon/>} text={"DashBoard"} />
-        <SideBarCard toggle={toggle} icon={<PersonIcon/>} text={"Coustomers"} />
-        <SideBarCard toggle={toggle} icon={<MessageIcon/>} text={"Message"} active/>
+        <SideBarCard toggle={toggle} icon={<HomeIcon/>} text={"Home"} />
         <SideBarCard toggle={toggle} icon={<QuestionMarkIcon/>} text={"Help"} />
         <SideBarCard toggle={toggle} icon={<SettingsIcon/>} text={"Settings"} active/>
         <SideBarCard toggle={toggle} icon={<LockIcon/>} text={"Password"} />

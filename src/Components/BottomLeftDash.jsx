@@ -114,7 +114,7 @@ const BottomLeftDash = () => {
   return (
     <div id="dashleft">
         <div id="top-dashleft">
-            <span style={{height:'auto',width:'auto',color:'#287afe',fontSize:'22px',fontWeight:'bold',fontFamily:'sans-serif'}}>Recent Orders</span>
+            <span style={{height:'auto',width:'auto',color:'#287afe',fontSize:'22px',fontWeight:'bold',fontFamily:'sans-serif'}}>Recent Transaction</span>
             <span style={{height:'auto',width:'auto',color:'white',fontSize:'16px',fontWeight:'medium',fontFamily:'sans-serif',backgroundColor:'#287AFE',padding:'6px',paddingLeft:'5px',paddingRight:'5px',borderRadius:'4px'}}>View All</span>
         </div>
         <table>
@@ -122,7 +122,7 @@ const BottomLeftDash = () => {
                 <span style={{height:'auto',width:'35%',textAlign:'start'}} className='heading-names'>Name</span>
                 <span  style={{height:'auto',width:'15%',textAlign:'left'}} className='heading-names'>Price</span>
                 <span style={{height:'auto',width:'15%',textAlign:'center'}} className='heading-names'>Payment</span>
-                <span  style={{height:'auto',width:'35%',textAlign:'end'}} className='heading-names'>Status</span>
+                {/* <span  style={{height:'auto',width:'35%',textAlign:'end'}} className='heading-names'>Status</span> */}
             </div>
             <div id="items-data">
                 {data.map((item,index)=>(
@@ -130,7 +130,7 @@ const BottomLeftDash = () => {
                     <span style={{height:'auto',width:'35%',textAlign:'start'}} className='items'>{item.itemname}</span>
                     <span  style={{height:'auto',width:'15%',wordSpacing:'2px',textAlign:'left'}} className='items'>{item.price}</span>
                     <span style={{height:'auto',width:'15%',textAlign:'center'}} className='items'>{item.status}</span>
-                    <span  style={{height:'auto',width:'35%',textAlign:'end'}} className='items'><span style={{color:'white',backgroundColor:`${item.color}`,padding:'4px',borderRadius:'5px',fontSize:'15px'}}>{item.destination}</span></span>
+                    {/* <span  style={{height:'auto',width:'35%',textAlign:'end'}} className='items'><span style={{color:'white',backgroundColor:`${item.color}`,padding:'4px',borderRadius:'5px',fontSize:'15px'}}>{item.destination}</span></span> */}
                 </div>
                  ))}
             </div>

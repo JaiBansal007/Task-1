@@ -108,7 +108,7 @@ const BottomRightDash = () => {
   
   return (
     <div id="dashright">
-      <span style={{height:'auto',width:'auto',color:'#287afe',fontSize:'27px',fontWeight:'bold',fontFamily:'sans-serif'}}>Recent Coustomers</span>
+      <span style={{height:'auto',width:'auto',color:'#287afe',fontSize:'27px',fontWeight:'bold',fontFamily:'sans-serif'}}>Friends</span>
       <div id="users" style={{overflowY:'scroll'}}>
         {data.map((item,index)=>(
           <SmallCard name={item.name} city={item.city} url={item.imageUrl}/>
